@@ -21,6 +21,11 @@
   color: #fff;
 }
 
+body {
+  height: 5000px;
+  overflow-x: hidden;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -86,6 +91,22 @@ footer {
   font-family: "STIXGeneralRegular";
   font-size: 23px;
   font-weight: bold;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  margin: 7px;
+}
+
+.active {
+  color: #fff;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

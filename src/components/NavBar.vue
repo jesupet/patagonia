@@ -1,28 +1,29 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid mt-4">
-      <a class="navbar-brand" href="#"><img class="logo-navbar" src="" alt="logo vanilla"></a>
-      <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon toggler-icon"></span>
+  <nav class="navbar navbar-dark navbar-expand container">
+    <div class="container-fluid">
+      <a class="navbar-brand my-3" href="/"><img src="../assets/patagonia_logo.png" alt="logo patagonia"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <router-link class="nav-link align-middle" aria-current="page" to="/">Home</router-link>
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Nosotros</router-link>
+            <a class="nav-link" href="#">Porqué invertir</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">¿Qué Hacemos?</router-link>
+            <a class="nav-link" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Proyectos</router-link>
+            <a class="nav-link">Nuevos Proyectos</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Han Confiado</router-link>
+            <a class="nav-link">Contáctanos</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link"><img src="../assets/icons/whatsapp_icon.png" alt=""></a>
           </li>
         </ul>
       </div>
@@ -31,37 +32,5 @@
 </template>
 
 <style>
-  nav {
-    background-color: #1b1629;
-    color: #fff;
-    height: 75px;
-  }
-  .navbar-toggler {
-    border: 0px;
-    color: #fff;
-  }
-  .logo-navbar {
-    height: 70px;
-    width: auto;
-    margin-top: 30px;
-    margin-left: 40px;
-  }
-  .nav-item {
-    padding: 20px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  .nav-link:hover {
-    color: #6d44bc;
-  }
-  .nav-link {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    padding: 0px;
-  }
-  .rounded-pill {
-    text-align: center;
-  }
+
 </style>

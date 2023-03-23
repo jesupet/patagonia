@@ -1,0 +1,68 @@
+h1, h2, h3 {
+  @extend %stix-font-bold;
+}
+p {
+  font-family: $montse-font;
+  color: $color-font;
+}
+.titulo {
+  font-size: 50px;
+  @extend %stix-font-bold;
+}
+@mixin changecolor {
+  color: $primary-color;
+}
+.titulo-verde {
+  font-size: 50px;
+  @extend %stix-font-bold;
+  @include changecolor;
+}
+.subtitulo {
+  font-size: 30px;
+  @extend %stix-font-bold;
+}
+.bajada {
+  @extend %montse-font-light;
+  font-size: 22px;
+}
+.bajada-mini {
+  @extend %montse-font-light;
+  font-size: 20px;
+}
+.titulo-no-bold {
+  font-size: 30px;
+  @extend %montse-font-light
+}
+.bajada-mini-bold {
+  @extend %montse-font-bold;
+  font-size: 20px;
+}
+.btn-txt {
+  font-family: $lato-font;
+  font-size: 24px;
+}
+.little-txt {
+  font-family: $lato-font;
+  font-size: 17px;
+}
+.acordion-titulo {
+  font-family: $montse-font;
+  color: $color-font;
+  font-weight: 400;
+  font-size: 28px;
+}
+.bajada-italic {
+  @extend %montse-font-light;
+  font-size: 22px;
+  font-style: italic;
+}
+.bajada-mini-verde {
+  @extend %montse-font-light;
+  font-size: 20px;
+  @include changecolor;
+}
+footer {
+  font-family: $stix-font;
+  font-size: 23px;
+  font-weight: bold;
+}

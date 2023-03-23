@@ -1,7 +1,8 @@
 <template>
   <div>
     <header>
-
+      <h1>Hola soy un h1</h1>
+      <p>Hola soy un parrafo montse</p>
     </header>
     <section id="aysen">
 
@@ -19,3 +20,7 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+</style>

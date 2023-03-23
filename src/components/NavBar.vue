@@ -23,7 +23,6 @@
             <router-link class="nav-link" to="/">Han Confiado</router-link>
           </li>
           <li class="nav-item">
-            <PurpleButton :to="'/'" :buttonText="'Hablemos!'"/>
           </li>
         </ul>
       </div>

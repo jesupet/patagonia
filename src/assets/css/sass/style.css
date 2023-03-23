@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+@font-face {
+  font-family: "STIXGeneralRegular";
+  src: url("~@/assets/fonts/STIXGeneral-Regular.ttf") format("truetype");
+}
+.subtitulo, .titulo-verde, .titulo, h1, h2, h3 {
+  font-family: "STIXGeneralRegular";
+  color: #fff;
+  font-weight: bold;
+}
+
+.bajada-mini-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.bajada-mini-verde, .bajada-italic, .titulo-no-bold, .bajada-mini, .bajada {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.titulo {
+  font-size: 50px;
+}
+
+.titulo-verde {
+  font-size: 50px;
+  color: #46AC94;
+}
+
+.subtitulo {
+  font-size: 30px;
+}
+
+.bajada {
+  font-size: 22px;
+}
+
+.bajada-mini {
+  font-size: 20px;
+}
+
+.titulo-no-bold {
+  font-size: 30px;
+}
+
+.bajada-mini-bold {
+  font-size: 20px;
+}
+
+.btn-txt {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+.little-txt {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+}
+
+.acordion-titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.bajada-italic {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.bajada-mini-verde {
+  font-size: 20px;
+  color: #46AC94;
+}
+
+footer {
+  font-family: "STIXGeneralRegular";
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

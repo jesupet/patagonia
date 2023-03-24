@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-dark navbar-expand container">
+  <nav class="navbar navbar-dark navbar-expand">
     <div class="container-fluid">
       <a class="navbar-brand my-3" href="/"><img src="../assets/patagonia_logo.png" alt="logo patagonia"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

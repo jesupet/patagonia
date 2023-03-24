@@ -104,6 +104,7 @@ footer {
 
 .navbar {
   background-color: transparent;
+  margin: 0px 50px;
 }
 
 .nav-link {
@@ -119,8 +120,7 @@ footer {
 }
 
 header {
-  padding-top: 100px;
-  padding-left: 50px;
+  padding: 100px 50px;
 }
 
 .header-container {
@@ -128,9 +128,12 @@ header {
   align-items: center;
 }
 
-.portada-img {
+.header-img {
   object-fit: cover;
   position: absolute;
+}
+
+.header-img {
   top: 0;
   left: 0;
   z-index: -1;
@@ -141,7 +144,6 @@ header {
 
 .columna1-header {
   width: 75%;
-  margin-left: 100px;
 }
 
 .header-text {
@@ -166,6 +168,20 @@ header {
 
 .fb-icon {
   top: 38%;
+}
+
+.header2-img {
+  position: relative;
+  top: 0;
+  z-index: -2;
+}
+
+#aysen {
+  padding: 130px 0px 360px;
+}
+
+.landscape-img {
+  padding: 0px 10px;
 }
 
 .boton {

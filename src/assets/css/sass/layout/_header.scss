@@ -1,0 +1,41 @@
+header {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.portada-img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /*@media (min-width: 1200px) {
+    min-height: 100vh;
+  */
+  }
+.columna1-header {
+  width: 75%;
+  margin-left: 100px;
+}
+.header-text {
+  margin-top: 80px;
+}
+.columna2-header {
+  position: relative
+}
+.columna2-header img {
+  float: right;
+  position: absolute;
+  width: auto;
+  right: 0px;
+  padding: 2px;
+}
+.insta-icon {
+  bottom: 38%;
+}
+.fb-icon {
+  top: 38%;
+}

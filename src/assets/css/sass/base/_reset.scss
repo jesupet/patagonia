@@ -2,3 +2,10 @@ body {
   height: 5000px;
   overflow-x: hidden;
 }
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  padding: 10px 100px;
+}

@@ -1,0 +1,8 @@
+@mixin changecolor {
+  color: $primary-color;
+}
+@mixin changebuttoncolor {
+  color: $primary-color;
+  background-color: $color-font;
+  border-color: $primary-color;
+}

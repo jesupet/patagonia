@@ -1,0 +1,11 @@
+.boton {
+  background-color: $primary-color;
+  color: $color-font;
+  font-family: $lato-font;
+  font-size: 24px;
+  padding: 10px 24px 10px 24px;
+}
+.boton:hover {
+  text-decoration: none;
+  @include changebuttoncolor
+}

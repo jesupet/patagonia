@@ -21,6 +21,16 @@
   color: #fff;
 }
 
+#app {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   height: 5000px;
   overflow-x: hidden;
@@ -29,10 +39,6 @@ body {
 a, a:hover {
   text-decoration: none;
   color: inherit;
-}
-
-.container {
-  padding: 10px 100px;
 }
 
 p {
@@ -119,8 +125,12 @@ footer {
   font-weight: 700;
 }
 
-header {
-  padding: 100px 50px;
+.background-image {
+  background-image: url("@/assets/img/header_bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .header-container {
@@ -182,6 +192,27 @@ header {
 
 .landscape-img {
   padding: 0px 10px;
+}
+
+.background-image2 {
+  background-image: url("@/assets/img/header_bg_2.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#invertir {
+  padding: 200px 0px;
+}
+
+.card-text {
+  padding: 25px 80px;
+}
+
+.card-cont {
+  width: 350px;
+  margin: auto;
 }
 
 .boton {

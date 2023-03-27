@@ -28,6 +28,37 @@
       </div>
     </section>
     <img src="../assets/img/header_bg_2.jpg" alt="montañas" class="header2-img">
+    <div id="beneficios" class="container">
+      <div class="row">
+        <div class="col-12 col-xl-4">
+          <div class="text-center benefit-card">
+            <img src="../assets/icons/bird.png" alt="pajaro">
+            <h3 class="subtitulo">
+              Biodiversidad
+            </h3>
+            <p class="bajada-mini">Contempla especies animales y vegetales únicas</p>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4">
+          <div class="text-center benefit-card">
+            <img src="../assets/icons/leave.png" alt="pajaro">
+            <h3 class="subtitulo">
+              Clima y aire
+            </h3>
+            <p class="bajada-mini">Agradable lugar para los diferentes gustos térmicos.</p>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4">
+          <div class="text-center benefit-card">
+            <img src="../assets/icons/climber.png" alt="pajaro">
+            <h3 class="subtitulo">
+              Actividades únicas
+            </h3>
+            <p class="bajada-mini">Senderismo, cabalgatas, escalada, pesca y mucho más.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -39,7 +70,7 @@ export default {
   name: 'HomePatagonia',
   components: {
     GreenButton,
-  }
+  },
 }
 </script>
 

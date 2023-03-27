@@ -24,6 +24,7 @@
 #app {
   width: 100%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 * {
@@ -33,7 +34,6 @@
 
 body {
   height: 5000px;
-  overflow-x: hidden;
 }
 
 a, a:hover {
@@ -138,20 +138,6 @@ footer {
   align-items: center;
 }
 
-.header-img {
-  object-fit: cover;
-  position: absolute;
-}
-
-.header-img {
-  top: 0;
-  left: 0;
-  z-index: -1;
-  /*@media (min-width: 1200px) {
-    min-height: 100vh;
-  */
-}
-
 .columna1-header {
   width: 75%;
 }
@@ -187,11 +173,16 @@ footer {
 }
 
 #aysen {
-  padding: 130px 100px 260px;
+  padding: 260px 5px 130px;
+  word-wrap: break-word;
 }
 
 .landscape-img {
   padding: 0px 10px;
+}
+
+.aysen-text {
+  padding: 40px;
 }
 
 .background-image2 {

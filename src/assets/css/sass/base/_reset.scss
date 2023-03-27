@@ -1,6 +1,7 @@
 #app {
   width: 100%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 * {
   margin: 0;
@@ -8,7 +9,6 @@
 }
 body {
   height: 5000px;
-  overflow-x: hidden;
 }
 a, a:hover {
   text-decoration: none;

@@ -22,7 +22,7 @@
         <div class="col-12 col-md-4">
           <img src="../assets/img/aysen_img.png" alt="" class="landscape-img img-fluid">
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 aysen-text">
           <h2 class="titulo">Aysén es la mezcla perfecta entre naturaleza y aventura.</h2>
           <p class="bajada">Esta región cuenta con una gran variedad de paisajes naturales, desde montañas y glaciares hasta ríos y lagos, así como una fauna y flora única en el mundo.</p>
         </div>

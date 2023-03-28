@@ -1,0 +1,7 @@
+.background-image4 {
+  background-image: url("@/assets/img/dudas_bg.jpg");
+  @extend %background-image
+}
+#dudas {
+  padding: 100px 50px
+}

@@ -1,9 +1,6 @@
 .background-image2 {
   background-image: url("@/assets/img/header_bg_2.jpg");
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  width: 100%;
+  @extend %background-image;
 }
 #invertir {
   padding: 200px 0px;

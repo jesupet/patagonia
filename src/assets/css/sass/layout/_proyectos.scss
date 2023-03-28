@@ -1,0 +1,11 @@
+.background-image3 {
+  background-image: url("@/assets/img/proyectos_bg.png");
+  @extend %background-image
+}
+#proyectos {
+  text-align: center;
+  padding: 100px 50px
+}
+.proyect-cont {
+  padding: 80px 0px;
+}

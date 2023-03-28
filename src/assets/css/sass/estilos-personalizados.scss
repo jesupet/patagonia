@@ -1,0 +1,11 @@
+@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+$body-bg: transparent;
+
+:root {
+  --#{$prefix}accordion-bg: #{$body-bg}; // Utilizar la variable en la propiedad CSS
+}
+.accordion-button {
+  background-color: transparent;
+}

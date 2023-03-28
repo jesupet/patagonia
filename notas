@@ -1,3 +1,11 @@
 alinear contenido columnas verticalmente:
 align-items-center
 
+para hacer transparente el fondo del acordion
+.accordion-item {
+  background-color: transparent;
+  color: $color-font;
+}
+
+para incorporar una variable del json en una propiedad poner los dos puntos al inicio y concatenar sólo con un +, aqui un ejemplo:
+:id="'flush-collapse'+index" 

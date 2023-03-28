@@ -1,7 +1,12 @@
 .background-image4 {
-  background-image: url("@/assets/img/dudas_bg.jpg");
+  background-image: url("@/assets/img/dudas_bg.png");
   @extend %background-image
 }
 #dudas {
   padding: 100px 50px
+}
+.accordion-item, .accordion-button:not(.collapsed), .accordion:focus {
+  background-color: transparent;
+  color: $color-font;
+  border: 0px solid transparent;
 }

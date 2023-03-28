@@ -131,12 +131,18 @@
         </div>
       </div>
     </div>
+    <div class="text-center container">
+      <img src="../assets/icons/dash_arrow.svg" alt="flecha punteada" style="width: 100%">
+    </div>
   </div>
   <!--DUDAS-->
   <div class="background-image4">
     <div id="dudas" class="container">
       <h2 class="titulo">Tal vez tienes dudas</h2>
       <h3 class="titulo-no-bold">Aquí responderemos las más frecuentes</h3>
+      <div class="col-xl-9 col-12">
+        <AcordionDudas/>
+      </div>
     </div>
   </div>
 </div>
@@ -149,6 +155,7 @@ import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
 import WhiteButton from '../components/WhiteButton.vue'
 import VerProyecto from '../components/VerProyecto.vue'
+import AcordionDudas from '../components/AcordionDudas.vue'
 
 export default {
   name: 'HomePatagonia',
@@ -157,6 +164,7 @@ export default {
     GreenButton,
     WhiteButton,
     VerProyecto,
+    AcordionDudas,
   },
 }
 </script>

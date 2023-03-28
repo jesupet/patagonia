@@ -1,6 +1,7 @@
 .background-image3 {
   background-image: url("@/assets/img/proyectos_bg.png");
-  @extend %background-image
+  @extend %background-image;
+  margin: 0px;
 }
 #proyectos {
   text-align: center;

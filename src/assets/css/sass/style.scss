@@ -1,3 +1,5 @@
+@import './estilos-personalizados.scss';
+
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
@@ -13,6 +15,7 @@
 @import 'layout/header';
 @import 'layout/section1';
 @import 'layout/proyectos';
+@import 'layout/dudas';
 @import 'layout/footer';
 
 @import 'components/buttons';
@@ -23,3 +26,4 @@
 @import 'pages/home';
 
 @import 'themes/theme';
+

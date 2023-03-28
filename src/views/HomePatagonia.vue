@@ -85,6 +85,13 @@
       </div>
     </div>
   </div>
+  <div class="background-map row">
+    <div class="cta-cont col-xl-8 col-12">
+      <h2 class="titulo">¿Quieres invertir en terrenos seguros, maravillosos y de mucha plusvalía?</h2>
+      <p class="bajada">Conversemos y veamos la mejor opción para lo que buscas.</p>
+      <WhiteButton :to="'/'" :buttonText="'Contactar Whatsapp'"/>
+    </div>
+  </div>
 </div>
   
 </template>
@@ -93,12 +100,14 @@
 // @ is an alias to /src
 import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
+import WhiteButton from '../components/WhiteButton.vue'
 
 export default {
   name: 'HomePatagonia',
   components: {
     NavBar,
     GreenButton,
+    WhiteButton,
   },
 }
 </script>

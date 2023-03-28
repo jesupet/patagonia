@@ -9,3 +9,10 @@
   text-decoration: none;
   @include changebuttoncolor
 }
+.boton-blanco {
+  @include changebuttoncolor;
+}
+.boton-blanco:hover {
+  background-color: $primary-color;
+  color: $color-font;
+}

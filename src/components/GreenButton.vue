@@ -1,5 +1,5 @@
 <template>
-  <button type="button" class="btn boton rounded-pill">
+  <button :type="type" class="btn boton rounded-pill">
     <router-link :to="to">{{buttonText}}</router-link>
   </button>
 </template>
@@ -16,6 +16,10 @@ export default {
     buttonText: {
       type: String,
       default: 'Button'
+    },
+    type: {
+      type: String,
+      default: "button"
     }
   }
 }

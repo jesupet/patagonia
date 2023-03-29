@@ -158,6 +158,15 @@
       </div>
     </div>
   </div>
+  <!--CONTACTO-->
+  <div id="contacto" class="text-center">
+    <div class="container">
+      <img src="../assets/icons/mail.svg" alt="" class="pb-5">
+      <h2 class="titulo">¿Quieres enterarte de cada nuevo proyecto?</h2>
+      <p class="bajada">Déjanos tu email y serás parte de la comunidad de Futuro Patagonia Inversiones.</p>
+      <ContactForm/>
+    </div>
+  </div>
 </div>
   
 </template>
@@ -169,6 +178,7 @@ import GreenButton from '../components/GreenButton.vue'
 import WhiteButton from '../components/WhiteButton.vue'
 import VerProyecto from '../components/VerProyecto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
+import ContactForm from '../components/ContactForm.vue'
 import { mapState } from 'vuex'
 
 export default {
@@ -179,6 +189,7 @@ export default {
     WhiteButton,
     VerProyecto,
     AcordionDudas,
+    ContactForm,
   },
   computed: {
     ...mapState(["reviews"])

@@ -1,0 +1,7 @@
+.background-image5 {
+  background-image: url("@/assets/img/reviews_bg.jpg");
+  @extend %background-image
+}
+#clientes {
+  padding: 100px 0px;
+}

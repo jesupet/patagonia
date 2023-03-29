@@ -145,6 +145,19 @@
       </div>
     </div>
   </div>
+  <!--CLIENTES-->
+  <div class="background-image5">
+    <div class="container text-center" id="clientes">
+      <h2 class="titulo">Ellos ya son parte <br/><span class="titulo-no-bold">de Futuro Patagonia</span></h2>
+      <div class="row proyect-cont">
+        <div class="col-12 col-md-4 px-5 py-3" v-for="(reviews, index) in reviews" :key="index">
+          <p class="bajada-italic">{{reviews.descripcion}}</p>
+          <p class="bajada-mini pt-4">{{reviews.autor}}</p>
+          <p class="bajada-mini-verde">{{reviews.proyecto}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
   
 </template>
@@ -156,6 +169,7 @@ import GreenButton from '../components/GreenButton.vue'
 import WhiteButton from '../components/WhiteButton.vue'
 import VerProyecto from '../components/VerProyecto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
+import { mapState } from 'vuex'
 
 export default {
   name: 'HomePatagonia',
@@ -166,6 +180,9 @@ export default {
     VerProyecto,
     AcordionDudas,
   },
+  computed: {
+    ...mapState(["reviews"])
+  }
 }
 </script>
 

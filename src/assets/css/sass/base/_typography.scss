@@ -58,6 +58,7 @@ p {
   @extend %montse-font-light;
   font-size: 20px;
   @include changecolor;
+  line-height: 0px;
 }
 footer {
   font-family: $stix-font;

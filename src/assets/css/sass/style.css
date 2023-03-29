@@ -12743,7 +12743,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.background-image4, .background-image3, .background-image2, .background-image {
+.background-image5, .background-image4, .background-image3, .background-image2, .background-image {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -12829,6 +12829,7 @@ p {
 .bajada-mini-verde {
   font-size: 20px;
   color: #46AC94;
+  line-height: 0px;
 }
 
 footer {
@@ -12976,6 +12977,14 @@ footer {
   background-color: transparent;
   color: #fff;
   border: 0px solid transparent;
+}
+
+.background-image5 {
+  background-image: url("@/assets/img/reviews_bg.jpg");
+}
+
+#clientes {
+  padding: 100px 0px;
 }
 
 .boton {

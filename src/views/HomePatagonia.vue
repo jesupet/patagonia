@@ -167,6 +167,7 @@
       <ContactForm/>
     </div>
   </div>
+  <FooterComp/>
 </div>
   
 </template>
@@ -179,6 +180,7 @@ import WhiteButton from '../components/WhiteButton.vue'
 import VerProyecto from '../components/VerProyecto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
 import ContactForm from '../components/ContactForm.vue'
+import FooterComp from '../components/FooterComp.vue'
 import { mapState } from 'vuex'
 
 export default {
@@ -190,6 +192,7 @@ export default {
     VerProyecto,
     AcordionDudas,
     ContactForm,
+    FooterComp,
   },
   computed: {
     ...mapState(["reviews"])

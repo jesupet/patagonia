@@ -12996,6 +12996,12 @@ footer {
   width: 40vh;
 }
 
+.footer-text {
+  background-color: #46AC94;
+  margin: 0px;
+  padding: 40px;
+}
+
 .boton {
   background-color: #46AC94;
   color: #fff;

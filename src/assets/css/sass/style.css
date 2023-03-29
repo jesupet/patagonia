@@ -12725,7 +12725,7 @@ textarea.form-control-lg {
   font-family: "STIXGeneralRegular";
   src: url("~@/assets/fonts/STIXGeneral-Regular.ttf") format("truetype");
 }
-.subtitulo, .titulo-verde, .titulo, h1, .h1, h2, .h2, h3, .h3 {
+.footer-text p, .subtitulo, .titulo-verde, .titulo, h1, .h1, h2, .h2, h3, .h3 {
   font-family: "STIXGeneralRegular";
   color: #fff;
   font-weight: bold;
@@ -12863,12 +12863,14 @@ footer {
 .header-container {
   display: flex;
   align-items: center;
+  padding: 0px 80px;
 }
 
-.columna1-header {
-  width: 75%;
+@media (min-width: 1200px) {
+  .columna1-header {
+    width: 70%;
+  }
 }
-
 .header-text {
   padding-top: 100px;
 }
@@ -12900,7 +12902,7 @@ footer {
 }
 
 #aysen {
-  padding: 260px 5px 130px;
+  padding: 260px 80px 130px;
   word-wrap: break-word;
 }
 
@@ -12914,6 +12916,10 @@ footer {
 
 .background-image2 {
   background-image: url("@/assets/img/header_bg_2.jpg");
+}
+
+#beneficios {
+  padding: 10px 100px;
 }
 
 #invertir {
@@ -12973,10 +12979,22 @@ footer {
   padding: 100px 50px;
 }
 
-.accordion-item, .accordion-button:not(.collapsed), .accordion:focus {
+.accordion-item, .accordion-button:not(.collapsed) {
   background-color: transparent;
   color: #fff;
   border: 0px solid transparent;
+}
+
+.accordion .accordion-button::after {
+  filter: invert(1);
+}
+
+.accordion .accordion-button:not(.collapsed)::after {
+  filter: invert(1) sepia(1) hue-rotate(50deg) saturate(1);
+}
+
+.accordion-button {
+  border-bottom: 1px solid #fff;
 }
 
 .background-image5 {
@@ -12999,7 +13017,15 @@ footer {
 .footer-text {
   background-color: #46AC94;
   margin: 0px;
-  padding: 40px;
+  padding: 25px;
+}
+
+.footer-text p {
+  font-size: 23px;
+  margin: 0px;
+}
+.footer-text p a {
+  text-decoration: underline;
 }
 
 .boton {
@@ -13007,7 +13033,7 @@ footer {
   color: #fff;
   font-family: "Lato", sans-serif;
   font-size: 24px;
-  padding: 10px 24px 10px 24px;
+  padding: 8px 24px 8px 24px;
 }
 
 .boton:hover {
@@ -13030,6 +13056,13 @@ footer {
 
 .benefit-card {
   padding: 10px 40px;
+}
+
+.chile-map {
+  position: absolute;
+  z-index: 20;
+  right: -50px;
+  top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

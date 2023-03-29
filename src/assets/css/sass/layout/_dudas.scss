@@ -5,8 +5,17 @@
 #dudas {
   padding: 100px 50px
 }
-.accordion-item, .accordion-button:not(.collapsed), .accordion:focus {
+.accordion-item, .accordion-button:not(.collapsed) {
   background-color: transparent;
   color: $color-font;
   border: 0px solid transparent;
+}
+.accordion .accordion-button::after {
+  filter: invert(1);
+}
+.accordion .accordion-button:not(.collapsed)::after {
+  filter: invert(1) sepia(1) hue-rotate(50deg) saturate(1);
+}
+.accordion-button {
+  border-bottom: 1px solid #fff;
 }

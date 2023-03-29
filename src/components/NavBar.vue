@@ -11,19 +11,19 @@
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Porqué invertir</a>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'invertir'}">Porqué invertir</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'invertir'}">Pricing</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Nuevos Proyectos</a>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'proyectos'}">Nuevos Proyectos</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Contáctanos</a>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'contacto'}">Contáctanos</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link"><img src="../assets/icons/whatsapp_icon.png" alt=""></a>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'invertir'}"><img src="../assets/icons/whatsapp_icon.png" alt=""></router-link>
           </li>
         </ul>
       </div>

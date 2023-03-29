@@ -1,5 +1,14 @@
 .footer-text {
   background-color: $primary-color;
   margin: 0px;
-  padding: 40px;
+  padding: 25px;
+}
+
+.footer-text p {
+  font-size: 23px;
+  @extend %stix-font-bold;
+  margin: 0px;
+  a {
+    text-decoration: underline;
+  }
 }

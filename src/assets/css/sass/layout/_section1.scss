@@ -2,6 +2,9 @@
   background-image: url("@/assets/img/header_bg_2.jpg");
   @extend %background-image;
 }
+#beneficios {
+  padding: 10px 100px;
+}
 #invertir {
   padding: 200px 0px;
 }

@@ -6,9 +6,12 @@
 .header-container {
   display: flex;
   align-items: center;
+  padding: 0px 80px;
 }
-.columna1-header {
-  width: 75%;
+@media (min-width: 1200px){
+  .columna1-header{
+    width: 70%;
+  }
 }
 .header-text {
   padding-top: 100px;
@@ -35,7 +38,7 @@
   z-index: -2;
 }
 #aysen {
-  padding: 260px 5px 130px;
+  padding: 260px 80px 130px;
   word-wrap: break-word;
 }
 .landscape-img {

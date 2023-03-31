@@ -1,8 +1,13 @@
 <template>
   <div>
     <router-link to="/">
-      <img src="../assets/icons/right_arrow.png" alt="flecha derecha" class="img-fluid">
+    <a href="" class="btn-proyecto">
+      <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="23" cy="23" r="22.5" stroke="white"/>
+        <path d="M19 12L30 23L19 34" stroke="white"/>
+      </svg>
       <p class="little-txt d-inline px-3" >Ver proyecto</p>
+    </a>
     </router-link>
   </div>
 </template>

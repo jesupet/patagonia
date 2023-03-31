@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-@font-face {
-  font-family: 'STIXGeneralRegular';
-  src: url('~@/assets/fonts/STIXGeneral-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap');
 
 $color-font: #fff;
 $primary-color: #46AC94;
 
-$stix-font: 'STIXGeneralRegular';
+$stix-font: 'STIX Two Text', serif;
 $lato-font: 'Lato', sans-serif;
 $montse-font: 'Montserrat', sans-serif;
 
 %stix-font-bold {
   font-family: $stix-font;
   color: $color-font;
-  font-weight: bold;
+  font-weight: 500;
 }
 %montse-font-bold {
   font-family: $montse-font;

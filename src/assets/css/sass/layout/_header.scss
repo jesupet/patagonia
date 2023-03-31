@@ -18,21 +18,22 @@
 .header-text {
   padding-top: 100px;
 }
-.columna2-header {
-  position: relative
-}
-.columna2-header img {
+
+.columna2-header a {
   float: right;
-  position: absolute;
   width: auto;
-  right: 0px;
   padding: 2px;
 }
-.insta-icon {
-  bottom: 38%;
+.columna2-header {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  @media (max-width: 800px){
+    display: none;
+  }
 }
-.fb-icon {
-  top: 38%;
+.insta-icon:hover, .fb-icon:hover {
+  opacity: 60%;
 }
 .header2-img {
   position: absolute;

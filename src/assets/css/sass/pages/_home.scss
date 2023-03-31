@@ -1,6 +1,11 @@
-.chile-map {
+.chile-map-cont {
   position: absolute;
   z-index: 20;
-  right: -50px;
-  top: 50px;
+  right: 0px;
+  overflow: hidden;
+}
+.chile-map {
+  margin-right: -50px;
+  margin-top: 50px;
+
 }

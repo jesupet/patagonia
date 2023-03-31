@@ -22,14 +22,28 @@
           <li class="nav-item">
             <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'contacto'}">Contáctanos</router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'invertir'}"><img src="../assets/icons/whatsapp_icon.png" alt=""></router-link>
-          </li>
+          <!--<li class="nav-item">
+            <WhatsAppBtn/>
+          </li>-->
         </ul>
       </div>
     </div>
   </nav>
 </template>
+
+
+<script>
+//import WhatsAppBtn from '../components/WhatsAppBtn.vue'
+
+export default {
+    name: "App",
+    components: {
+        //WhatsAppBtn,
+    }
+}
+
+</script>
+
 
 <style>
 

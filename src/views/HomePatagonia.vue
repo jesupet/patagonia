@@ -1,4 +1,7 @@
 <template>
+  <div class="chile-map-cont">
+    <img src="../assets/img/chile_map.png" alt="" class="chile-map">
+  </div>
   <div class="background-image">
     <NavBar/>
     <div class="container-fluid">
@@ -8,12 +11,12 @@
             <div class="columna1-header text-start">
               <h1 class="titulo">Cuidamos la biodiversidad patagónica y a la vez tu patrimonio.</h1>
               <p class="bajada">Proyecta tu vida y la de tu familia en un entorno lleno de belleza.</p>
-              <GreenButton :to="'/'" :buttonText="'Ver proyectos'"/>
+              <GreenButton :to="{name: 'home', hash: '#'+'proyectos'}" :buttonText="'Ver proyectos'"/>
             </div>
           </div>
-          <div class="col-md-4 col-12 columna2-header row d-none d-sm-block">
-              <img src="../assets/icons/instagram_icon.png" alt="" class="insta-icon">
-              <img src="../assets/icons/facebook_icon.png" alt="" class="fb-icon">
+          <div class="col-md-4 col-12 columna2-header row">
+              <a href="" class="insta-icon"><img src="../assets/icons/instagram_icon.png" alt=""></a>
+              <a href="" class="fb-icon"><img src="../assets/icons/facebook_icon.png" alt="" ></a>
           </div>
         </div>
       </header>

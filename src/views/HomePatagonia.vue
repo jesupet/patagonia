@@ -33,64 +33,65 @@
       </section>
     </div>
   </div>
-<div class="background-image2">
-  <!--BENEFICIOS-->
-  <div id="beneficios" class="container">
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <div class="text-center benefit-card">
-          <img src="../assets/icons/bird.png" alt="pajaro">
-          <h3 class="subtitulo">
-            Biodiversidad
-          </h3>
-          <p class="bajada-mini">Contempla especies animales y vegetales únicas</p>
+  <div class="background-image2">
+    <!--BENEFICIOS-->
+    <div id="beneficios" class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="text-center benefit-card">
+            <img src="../assets/icons/bird.png" alt="pajaro">
+            <h3 class="subtitulo">
+              Biodiversidad
+            </h3>
+            <p class="bajada-mini">Contempla especies animales y vegetales únicas</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="text-center benefit-card">
+            <img src="../assets/icons/leave.png" alt="pajaro">
+            <h3 class="subtitulo">
+              Clima y aire
+            </h3>
+            <p class="bajada-mini">Agradable lugar para los diferentes gustos térmicos.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="text-center benefit-card">
+            <img src="../assets/icons/climber.png" alt="pajaro">
+            <h3 class="subtitulo">
+              Actividades únicas
+            </h3>
+            <p class="bajada-mini">Senderismo, cabalgatas, escalada, pesca y mucho más.</p>
+          </div>
         </div>
       </div>
-      <div class="col-12 col-lg-4">
-        <div class="text-center benefit-card">
-          <img src="../assets/icons/leave.png" alt="pajaro">
-          <h3 class="subtitulo">
-            Clima y aire
-          </h3>
-          <p class="bajada-mini">Agradable lugar para los diferentes gustos térmicos.</p>
+    </div>
+    <!--PORQUE INVERTIR-->
+    <div id="invertir" class="text-center container">
+      <h2 class="titulo">¿Porqué invertir<br/><span class="titulo-no-bold">en la patagonia?</span></h2>
+      <div class="row py-5">
+        <div class="col-12 col-xl-4 px-2">
+          <div class="card-cont">
+            <img src="../assets/img/martin.png" alt="martin pescador">
+            <p class="bajada-mini card-text">Cuenta con una rica biodiversidad, tierras fértiles e inmensa <span class="bajada-mini-bold">reserva de agua dulce</span></p>
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-lg-4">
-        <div class="text-center benefit-card">
-          <img src="../assets/icons/climber.png" alt="pajaro">
-          <h3 class="subtitulo">
-            Actividades únicas
-          </h3>
-          <p class="bajada-mini">Senderismo, cabalgatas, escalada, pesca y mucho más.</p>
+        <div class="col-12 col-xl-4 px-2">
+          <div class="card-cont">
+            <img src="../assets/img/lago.png" alt="lago">
+            <p class="bajada-mini card-text">Esta región, es una de las que más potencial de <span class="bajada-mini-bold">crecimiento económico </span> tiene.</p>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4 px-2">
+          <div class="card-cont">
+            <img src="../assets/img/rio.png" alt="rio">
+            <p class="bajada-mini card-text">Destino ideal para aquellos que buscan desconectar y <span class="bajada-mini-bold">conectar con la naturaleza.</span></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <!--PORQUE INVERTIR-->
-  <div id="invertir" class="text-center container">
-    <h2 class="titulo">¿Porqué invertir<br/><span class="titulo-no-bold">en la patagonia?</span></h2>
-    <div class="row py-5">
-      <div class="col-12 col-xl-4 px-2">
-        <div class="card-cont">
-          <img src="../assets/img/martin.png" alt="martin pescador">
-          <p class="bajada-mini card-text">Cuenta con una rica biodiversidad, tierras fértiles e inmensa <span class="bajada-mini-bold">reserva de agua dulce</span></p>
-        </div>
-      </div>
-      <div class="col-12 col-xl-4 px-2">
-        <div class="card-cont">
-          <img src="../assets/img/lago.png" alt="lago">
-          <p class="bajada-mini card-text">Esta región, es una de las que más potencial de <span class="bajada-mini-bold">crecimiento económico </span> tiene.</p>
-        </div>
-      </div>
-      <div class="col-12 col-xl-4 px-2">
-        <div class="card-cont">
-          <img src="../assets/img/rio.png" alt="rio">
-          <p class="bajada-mini card-text">Destino ideal para aquellos que buscan desconectar y <span class="bajada-mini-bold">conectar con la naturaleza.</span></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--CALL TO ACTION MAP-->
+    <!--CALL TO ACTION MAP-->
   <div class="background-map row">
     <div class="cta-cont col-xl-8 col-12">
       <h2 class="titulo">¿Quieres invertir en terrenos seguros, maravillosos y de mucha plusvalía?</h2>
@@ -98,7 +99,7 @@
       <WhiteButton :to="'/'" :buttonText="'Contactar Whatsapp'"/>
     </div>
   </div>
-  <!--PROYECTOS-->
+    <!--PROYECTOS-->
   <div class="background-image3">
     <div class="container" id="proyectos">
       <h1 class="titulo">Los proyectos de <span class="titulo-verde">Futuro Patagonia </span><br/><span class="titulo-no-bold">que cambiarán tu vida</span></h1>
@@ -143,7 +144,7 @@
       <img src="../assets/icons/dash_arrow.svg" alt="flecha punteada" style="width: 100%">
     </div>
   </div>
-  <!--DUDAS-->
+    <!--DUDAS-->
   <div class="background-image4">
     <div id="dudas" class="container">
       <h2 class="titulo">Tal vez tienes dudas</h2>
@@ -153,7 +154,7 @@
       </div>
     </div>
   </div>
-  <!--CLIENTES-->
+    <!--CLIENTES-->
   <div class="background-image5">
     <div class="container text-center" id="clientes">
       <h2 class="titulo">Ellos ya son parte <br/><span class="titulo-no-bold">de Futuro Patagonia</span></h2>
@@ -166,7 +167,7 @@
       </div>
     </div>
   </div>
-  <!--CONTACTO-->
+    <!--CONTACTO-->
   <div id="contacto" class="text-center">
     <div class="container">
       <img src="../assets/icons/mail.svg" alt="" class="pb-5">
@@ -176,8 +177,6 @@
     </div>
   </div>
   <FooterComp/>
-</div>
-  
 </template>
 
 <script>

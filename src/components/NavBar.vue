@@ -14,9 +14,6 @@
             <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'invertir'}">Porqué invertir</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'invertir'}">Pricing</router-link>
-          </li>
-          <li class="nav-item">
             <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'proyectos'}">Nuevos Proyectos</router-link>
           </li>
           <li class="nav-item">

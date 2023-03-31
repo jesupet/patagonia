@@ -15,8 +15,8 @@
             </div>
           </div>
           <div class="col-md-4 col-12 columna2-header row">
-              <a href="" class="insta-icon"><img src="../assets/icons/instagram_icon.png" alt=""></a>
-              <a href="" class="fb-icon"><img src="../assets/icons/facebook_icon.png" alt="" ></a>
+              <a href="https://www.instagram.com/futuropatagonia/" class="insta-icon"><img src="../assets/icons/instagram_icon.png" alt=""></a>
+              <a href="https://www.facebook.com/Futuropatagonia" class="fb-icon"><img src="../assets/icons/facebook_icon.png" alt="" ></a>
           </div>
         </div>
       </header>
@@ -104,32 +104,37 @@
       <h1 class="titulo">Los proyectos de <span class="titulo-verde">Futuro Patagonia </span><br/><span class="titulo-no-bold">que cambiarán tu vida</span></h1>
       <div class="row align-items-center proyect-cont">
         <div class="col-12 col-md-4">
-          <img src="../assets/img/rio_blanco.png" alt="rio con volcan">
+          <img src="../assets/img/rio_blanco.png" alt="rio con volcan" class="img-fluid">
         </div>
         <div class="col-12 col-md-8 text-start desc-text">
           <h3 class="titulo">Refugio Río Blanco</h3>
           <p class="bajada">El proyecto se encuentra emplazado en un lugar privilegiado por la naturaleza, rodeado de bosques siempre verdes y acompañado siempre por el sonido del Río Blanco. Lo maravilloso del sur de Chile, sin complicaciones y con esa belleza natural que buscas.</p>
-          <VerProyecto/>
+          <VerProyecto :to="'https://refugiorioblanco.cl/'"/>
         </div>
       </div>
       <div class="row align-items-center proyect-cont">
-        <div class="col-12 col-md-8 text-end desc-text">
+        <div class="col-12 col-md-8 text-end desc-text d-none d-md-block">
           <h3 class="titulo">Santuario Río Cóndor</h3>
           <p class="bajada">Santuario Río Cóndor es un proyecto ubicado en el corazón de la naturaleza, con la menor intervención humana que se puede encontrar. Entre Río Condor y Río Laguna Vera, ofrece vistas inigualables, rodeado de hermosos cordones montañosos, un verde brillante y una tranquilidad tan silenciosa que es imposible dejar de escuchar.</p>
-          <VerProyecto/>
+          <VerProyecto :to="'https://santuarioriocondor.cl/'"/>
         </div>
         <div class="col-12 col-md-4">
-          <img src="../assets/img/rio_condor.png" alt="rio con volcan">
+          <img src="../assets/img/rio_condor.png" alt="rio con volcan" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-8 text-end desc-text d-md-none">
+          <h3 class="titulo">Santuario Río Cóndor</h3>
+          <p class="bajada">Santuario Río Cóndor es un proyecto ubicado en el corazón de la naturaleza, con la menor intervención humana que se puede encontrar. Entre Río Condor y Río Laguna Vera, ofrece vistas inigualables, rodeado de hermosos cordones montañosos, un verde brillante y una tranquilidad tan silenciosa que es imposible dejar de escuchar.</p>
+          <VerProyecto :to="'https://santuarioriocondor.cl/'"/>
         </div>
       </div>
       <div class="row align-items-center proyect-cont">
         <div class="col-12 col-md-4">
-          <img src="../assets/img/praderas.png" alt="rio con volcan">
+          <img src="../assets/img/praderas.png" alt="rio con volcan" class="img-fluid">
         </div>
         <div class="col-12 col-md-8 text-start desc-text">
           <h3 class="titulo-verde">PRONTO</h3>
           <h3 class="titulo">Praderas de Mañihuales</h3>
-          <p class="bajada">ESi te has planteado vivir en este impresionante lugar, dentro de poco podrás hacerlo. Este proyecto está ubicado en un lugar increíble, rodeado de reservas naturales, paisajes maravillosos y  3km. del río Mañihuales lo acompañan.</p>
+          <p class="bajada">Si te has planteado vivir en este impresionante lugar, dentro de poco podrás hacerlo. Este proyecto está ubicado en un lugar increíble, rodeado de reservas naturales, paisajes maravillosos y  3km. del río Mañihuales lo acompañan.</p>
           <VerProyecto/>
         </div>
       </div>
@@ -153,7 +158,7 @@
     <div class="container text-center" id="clientes">
       <h2 class="titulo">Ellos ya son parte <br/><span class="titulo-no-bold">de Futuro Patagonia</span></h2>
       <div class="row proyect-cont">
-        <div class="col-12 col-md-4 px-5 py-3" v-for="(reviews, index) in reviews" :key="index">
+        <div class="col-12 col-md-4 review-cont" v-for="(reviews, index) in reviews" :key="index">
           <p class="bajada-italic">{{reviews.descripcion}}</p>
           <p class="bajada-mini pt-4">{{reviews.autor}}</p>
           <p class="bajada-mini-verde">{{reviews.proyecto}}</p>

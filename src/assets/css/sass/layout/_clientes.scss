@@ -5,3 +5,9 @@
 #clientes {
   padding: 100px 0px;
 }
+.review-cont {
+  padding: 48px;
+  @media (min-width: $tablet-width){
+    padding: 28px;
+  }
+}

@@ -1,14 +1,12 @@
 <template>
   <div>
-    <router-link to="/">
-    <a href="" class="btn-proyecto">
+    <a :href="to" class="btn-proyecto" target="_blank">
       <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="23" cy="23" r="22.5" stroke="white"/>
         <path d="M19 12L30 23L19 34" stroke="white"/>
       </svg>
       <p class="little-txt d-inline px-3" >Ver proyecto</p>
     </a>
-    </router-link>
   </div>
 </template>
 
@@ -16,6 +14,11 @@
 
 export default {
   name: 'VerProyecto',
-  
+  props: {
+    to: {
+      type: String,
+      default: '/'
+    },
   }
+}
 </script>

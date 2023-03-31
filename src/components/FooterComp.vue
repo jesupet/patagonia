@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="footer-text text-center align-items-center">
-        <p>Síguenos en <a href="">instagram</a> para estar al tanto de todas nuestras novedades y nuevos lanzamientos.</p>
+        <p>Síguenos en <a href="https://www.instagram.com/futuropatagonia/">instagram</a> para estar al tanto de todas nuestras novedades y nuevos lanzamientos.</p>
       </div>
     </div>
   </footer>

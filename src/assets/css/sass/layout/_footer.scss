@@ -11,4 +11,7 @@
   a {
     text-decoration: underline;
   }
+  @media (max-width: $phone-width){
+    font-size: 18px;
+  }
 }

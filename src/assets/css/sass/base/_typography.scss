@@ -53,12 +53,15 @@ p {
   @extend %montse-font-light;
   font-size: 22px;
   font-style: italic;
+  @media (min-width: $tablet-width){
+    font-size: 18px;
+  }
 }
 .bajada-mini-verde {
   @extend %montse-font-light;
   font-size: 20px;
   @include changecolor;
-  line-height: 0px;
+  margin: 0px;
 }
 footer {
   font-family: $stix-font;

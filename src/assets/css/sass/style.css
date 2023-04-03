@@ -12898,6 +12898,13 @@ footer {
   }
 }
 
+.insta-icon, .fb-icon {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  transition: 0.3s;
+}
+
 .insta-icon:hover, .fb-icon:hover {
   opacity: 60%;
 }
@@ -13090,19 +13097,26 @@ footer {
   z-index: 100;
 }
 
+.whatsapp-icon {
+  opacity: 0.7;
+  transition: 0.7s;
+}
+
 .whatsapp-icon:hover {
-  width: 63px;
-  height: 63px;
+  opacity: 1;
 }
 
 .fixed-button.show-button {
   opacity: 1;
 }
 
+.btn-proyecto p, .btn-proyecto svg {
+  transition: 0.3s;
+}
+
 .btn-proyecto:hover p {
   color: #46AC94;
 }
-
 .btn-proyecto:hover svg {
   fill: #46AC94;
 }
@@ -13118,14 +13132,14 @@ footer {
 
 .chile-map-cont {
   position: absolute;
-  z-index: 20;
+  z-index: 1;
+  top: 150px;
   right: 0px;
   overflow: hidden;
 }
 
 .chile-map {
   margin-right: -50px;
-  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

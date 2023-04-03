@@ -10,8 +10,10 @@ export default {
   name: 'GreenButton',
   props: {
     to: {
-      type: String,
-      default: '/'
+      type: Object,
+      default() {
+        return { message: 'hello' }
+      }
     },
     buttonText: {
       type: String,

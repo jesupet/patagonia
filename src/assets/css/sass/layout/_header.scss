@@ -32,6 +32,12 @@
     display: none;
   }
 }
+.insta-icon, .fb-icon {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  transition: 0.3s,
+}
 .insta-icon:hover, .fb-icon:hover {
   opacity: 60%;
 }

@@ -1,7 +1,6 @@
 .background-image {
-  background-image: url("@/assets/img/header_bg.jpg");
+  background-image: url("@/assets/img/header_bg.png");
   @extend %background-image;
-  background-position: center center;
 }
 .header-container {
   display: flex;
@@ -50,8 +49,11 @@
   z-index: -2;
 }
 #aysen {
-  padding: 260px 80px 260px;
+  padding: 260px 12px;
   word-wrap: break-word;
+  @media (min-width: 768px){
+    padding: 260px 80px 260px;
+  }
 }
 .landscape-img {
   padding: 0px 10px;

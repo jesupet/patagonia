@@ -1,21 +1,27 @@
 <template>
   <footer>
-    <div>
-      <div class="row mx-0 d-inline-flex">
-        <div class="col px-0 mx-0">
-          <img src="../assets/img/footer_img1.jpg" alt="" class="img-fluid">
+    <div class="container-fluid  px-0">
+      <div class="d-flex flex-wrap">
+        <div class="col px-0 mx-0 d-flex">
+          <img src="../assets/img/footer_img1.png" alt="" class="footer-img img-fluid">
         </div>
-        <div class="col px-0 mx-0">
-          <img src="../assets/img/footer_img2.jpg" alt="" class="img-fluid">
+        <div class="col px-0 mx-0 d-flex">
+          <img src="../assets/img/footer_img2.png" alt="" class="footer-img img-fluid">
         </div>
-        <div class="col px-0 mx-0">
-          <img src="../assets/img/footer_img3.jpg" alt="" class="img-fluid">
+        <div class="col px-0 mx-0 d-flex">
+          <img src="../assets/img/footer_img3.png" alt="" class="footer-img img-fluid">
         </div>
-        <div class="col px-0 mx-0">
-          <img src="../assets/img/footer_img4.jpg" alt="" class="img-fluid">
+        <div class="col px-0 mx-0 d-flex">
+          <img src="../assets/img/footer_img4.png" alt="" class="footer-img img-fluid">
         </div>
-        <div class="col px-0 mx-0">
-          <img src="../assets/img/footer_img5.jpg" alt="" class="img-fluid">
+        <div class="col px-0 mx-0 d-none d-lg-flex">
+          <img src="../assets/img/footer_img5.png" alt="" class="footer-img img-fluid">
+        </div>
+        <div class="col px-0 mx-0 d-none d-xl-flex">
+          <img src="../assets/img/footer_img6.png" alt="" class="footer-img img-fluid">
+        </div>
+        <div class="col px-0 mx-0 d-none d-xl-flex">
+          <img src="../assets/img/footer_img7.png" alt="" class="footer-img img-fluid">
         </div>
       </div>
       <div class="footer-text text-center align-items-center">

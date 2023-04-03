@@ -152,6 +152,7 @@
   </div>
     <!--DUDAS-->
   <div class="background-image4">
+    <img src="../assets/img/hombre.png" alt="hombre" class="hombre-img img-fluid">
     <div id="dudas" class="container">
       <h2 class="titulo">Tal vez tienes dudas</h2>
       <h3 class="titulo-no-bold">Aquí responderemos las más frecuentes</h3>

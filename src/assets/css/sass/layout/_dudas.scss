@@ -1,9 +1,11 @@
 .background-image4 {
   background-image: url("@/assets/img/dudas_bg.png");
-  @extend %background-image
+  @extend %background-image;
+  position: relative;
 }
 #dudas {
-  padding: 100px 50px
+  padding: 100px 50px;
+  
 }
 .accordion-item, .accordion-button:not(.collapsed) {
   background-color: transparent;
@@ -18,4 +20,10 @@
 }
 .accordion-button {
   border-bottom: 1px solid #fff;
+}
+.hombre-img {
+  width: 40%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }

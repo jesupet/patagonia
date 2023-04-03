@@ -12767,6 +12767,11 @@ a, a:hover {
   color: inherit;
 }
 
+img {
+  border: none;
+  outline: none;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -12862,8 +12867,7 @@ footer {
 }
 
 .background-image {
-  background-image: url("@/assets/img/header_bg.jpg");
-  background-position: center center;
+  background-image: url("@/assets/img/header_bg.png");
 }
 
 .header-container {
@@ -12923,8 +12927,13 @@ footer {
 }
 
 #aysen {
-  padding: 260px 80px 260px;
+  padding: 260px 12px;
   word-wrap: break-word;
+}
+@media (min-width: 768px) {
+  #aysen {
+    padding: 260px 80px 260px;
+  }
 }
 
 .landscape-img {
@@ -12936,11 +12945,16 @@ footer {
 }
 
 .background-image2 {
-  background-image: url("@/assets/img/header_bg_2.jpg");
+  background-image: url("@/assets/img/header_bg_2.png");
 }
 
 #beneficios {
-  padding: 10px 100px;
+  padding: 10px 12px;
+}
+@media (min-width: 768px) {
+  #beneficios {
+    padding: 10px 100px;
+  }
 }
 
 .benefit-card {
@@ -13011,6 +13025,7 @@ footer {
 
 .background-image4 {
   background-image: url("@/assets/img/dudas_bg.png");
+  position: relative;
 }
 
 #dudas {
@@ -13033,6 +13048,13 @@ footer {
 
 .accordion-button {
   border-bottom: 1px solid #fff;
+}
+
+.hombre-img {
+  width: 40%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 .background-image5 {
@@ -13078,6 +13100,14 @@ footer {
   .footer-text p {
     font-size: 18px;
   }
+}
+
+.footer-img {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  border: none;
 }
 
 .boton {

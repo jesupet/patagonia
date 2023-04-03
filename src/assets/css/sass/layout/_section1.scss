@@ -5,6 +5,19 @@
 #beneficios {
   padding: 10px 100px;
 }
+.benefit-card {
+  padding: 10px 20px;
+}
+.benefit-card img {
+  width: 117px;
+  padding: 10px 0px;
+}
+.benefit-icon-cont {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #invertir {
   padding: 200px 0px;
 }

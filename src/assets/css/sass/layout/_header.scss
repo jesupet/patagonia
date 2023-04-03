@@ -36,7 +36,10 @@
   position: relative;
   z-index: 2;
   opacity: 1;
-  transition: 0.3s,
+  transition: 0.3s;
+  img {
+    width: 37px;
+  }
 }
 .insta-icon:hover, .fb-icon:hover {
   opacity: 60%;

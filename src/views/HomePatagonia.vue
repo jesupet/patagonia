@@ -15,8 +15,8 @@
             </div>
           </div>
           <div class="col-md-4 col-12 columna2-header row">
-              <a href="https://www.instagram.com/futuropatagonia/" class="insta-icon"><img src="../assets/icons/instagram_icon.png" alt=""></a>
-              <a href="https://www.facebook.com/Futuropatagonia" class="fb-icon"><img src="../assets/icons/facebook_icon.png" alt="" ></a>
+              <a href="https://www.instagram.com/futuropatagonia/" class="insta-icon"><img src="../assets/icons/instagram.png" alt=""></a>
+              <a href="https://www.facebook.com/Futuropatagonia" class="fb-icon"><img src="../assets/icons/facebook.png" alt="" ></a>
           </div>
         </div>
       </header>
@@ -39,7 +39,9 @@
       <div class="row">
         <div class="col-12 col-lg-4">
           <div class="text-center benefit-card">
-            <img src="../assets/icons/bird.png" alt="pajaro">
+            <div class="benefit-icon-cont ">
+              <img src="../assets/icons/bird.png" alt="pajaro">
+            </div>
             <h3 class="subtitulo">
               Biodiversidad
             </h3>
@@ -48,7 +50,9 @@
         </div>
         <div class="col-12 col-lg-4">
           <div class="text-center benefit-card">
-            <img src="../assets/icons/leave.png" alt="pajaro">
+             <div class="benefit-icon-cont">
+              <img src="../assets/icons/leave.png" alt="pajaro">
+            </div>
             <h3 class="subtitulo">
               Clima y aire
             </h3>
@@ -57,7 +61,9 @@
         </div>
         <div class="col-12 col-lg-4">
           <div class="text-center benefit-card">
-            <img src="../assets/icons/climber.png" alt="pajaro">
+             <div class="benefit-icon-cont">
+              <img src="../assets/icons/climber.png" alt="pajaro">
+            </div>
             <h3 class="subtitulo">
               Actividades únicas
             </h3>

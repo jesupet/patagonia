@@ -12857,6 +12857,10 @@ footer {
   font-weight: 700;
 }
 
+.logo {
+  width: 88px;
+}
+
 .background-image {
   background-image: url("@/assets/img/header_bg.jpg");
   background-position: center center;
@@ -12904,6 +12908,9 @@ footer {
   opacity: 1;
   transition: 0.3s;
 }
+.insta-icon img, .fb-icon img {
+  width: 37px;
+}
 
 .insta-icon:hover, .fb-icon:hover {
   opacity: 60%;
@@ -12934,6 +12941,22 @@ footer {
 
 #beneficios {
   padding: 10px 100px;
+}
+
+.benefit-card {
+  padding: 10px 20px;
+}
+
+.benefit-card img {
+  width: 117px;
+  padding: 10px 0px;
+}
+
+.benefit-icon-cont {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #invertir {
@@ -13100,6 +13123,7 @@ footer {
 .whatsapp-icon {
   opacity: 0.7;
   transition: 0.7s;
+  width: 53px;
 }
 
 .whatsapp-icon:hover {
@@ -13126,10 +13150,6 @@ footer {
   border-color: rgba(0, 0, 0, 0.125);
 }
 
-.benefit-card {
-  padding: 10px 40px;
-}
-
 .chile-map-cont {
   position: absolute;
   z-index: 1;
@@ -13140,6 +13160,7 @@ footer {
 
 .chile-map {
   margin-right: -50px;
+  height: 1736px;
 }
 
 /*# sourceMappingURL=style.css.map */

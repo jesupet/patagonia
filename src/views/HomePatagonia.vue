@@ -128,7 +128,7 @@
         <div class="col-12 col-md-4">
           <img src="../assets/img/rio_condor.png" alt="rio con volcan" class="img-fluid">
         </div>
-        <div class="col-12 col-md-8 text-end desc-text d-md-none">
+        <div class="col-12 col-md-8 text-start desc-text d-md-none">
           <h3 class="titulo">Santuario Río Cóndor</h3>
           <p class="bajada">Santuario Río Cóndor es un proyecto ubicado en el corazón de la naturaleza, con la menor intervención humana que se puede encontrar. Entre Río Condor y Río Laguna Vera, ofrece vistas inigualables, rodeado de hermosos cordones montañosos, un verde brillante y una tranquilidad tan silenciosa que es imposible dejar de escuchar.</p>
           <VerProyecto :to="'https://santuarioriocondor.cl/'"/>

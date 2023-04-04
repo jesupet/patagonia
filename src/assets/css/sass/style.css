@@ -12979,10 +12979,11 @@ footer {
 .card-cont {
   width: 350px;
   margin: auto;
+  padding-bottom: 50px;
 }
 
 .background-map {
-  background-image: url("@/assets/img/map_bg.jpg");
+  background-image: url("@/assets/img/map_bg.png");
 }
 
 .cta-cont {
@@ -12991,7 +12992,7 @@ footer {
 }
 @media (max-width: 800px) {
   .cta-cont {
-    padding: 100px 100px;
+    padding: 100px 80px;
   }
 }
 
@@ -13056,7 +13057,7 @@ footer {
   background-image: url("@/assets/img/reviews_bg.png");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 180vh;
   position: relative;
   background-attachment: fixed;
 }

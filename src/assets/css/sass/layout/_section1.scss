@@ -39,8 +39,8 @@
 .cta-cont {
   padding: 100px 200px;
   margin: 0px;
-  @media (max-width: 800px) {
-    padding: 100px 80px;
+  @media (max-width: $tablet-width) {
+    padding: 100px 40px;
   }
 }
 .row {

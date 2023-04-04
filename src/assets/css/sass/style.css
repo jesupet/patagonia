@@ -12875,9 +12875,9 @@ footer {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .columna1-header {
-    width: 70%;
+    width: 67%;
   }
 }
 .header-text {
@@ -12895,7 +12895,7 @@ footer {
   flex-direction: column;
   align-content: flex-end;
 }
-@media (max-width: 800px) {
+@media (max-width: 990px) {
   .columna2-header {
     display: none;
   }
@@ -12990,9 +12990,9 @@ footer {
   padding: 100px 200px;
   margin: 0px;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .cta-cont {
-    padding: 100px 80px;
+    padding: 100px 40px;
   }
 }
 
@@ -13017,6 +13017,16 @@ footer {
 
 .proyect-cont {
   padding: 80px 0px;
+}
+
+.desc-text {
+  padding: 40px;
+}
+@media (max-width: 768px) {
+  .desc-text {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 .background-image4 {
@@ -13057,7 +13067,6 @@ footer {
   background-image: url("@/assets/img/reviews_bg.png");
   background-size: cover;
   background-position: center;
-  height: 180vh;
   position: relative;
   background-attachment: fixed;
 }
@@ -13075,8 +13084,10 @@ footer {
 
 #clientes {
   padding: 100px 0px;
-  position: absolute;
+  position: relative;
   z-index: 1;
+  right: 0;
+  left: 0;
 }
 
 .review-cont {

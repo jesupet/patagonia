@@ -2,7 +2,6 @@
   background-image: url("@/assets/img/reviews_bg.png");
   background-size: cover;
   background-position: center;
-  height: 180vh;
   position: relative;
   background-attachment: fixed;
 }
@@ -18,8 +17,10 @@
 }
 #clientes {
   padding: 100px 0px;
-  position: absolute;
+  position: relative;
   z-index: 1;
+  right: 0;
+  left: 0;
 }
 .review-cont {
   padding: 48px;

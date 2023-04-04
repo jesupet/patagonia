@@ -7,16 +7,16 @@
     <div class="container-fluid">
       <header class="header-container container">
         <div class="row header-text align-items-center">
-          <div class="col-md-8 col-12">
+          <div class="col-md-9 col-12">
             <div class="columna1-header text-start">
               <h1 class="titulo">Cuidamos la biodiversidad patagónica y a la vez tu patrimonio.</h1>
               <p class="bajada">Proyecta tu vida y la de tu familia en un entorno lleno de belleza.</p>
               <GreenButton :to="{name: 'home', hash: '#'+'proyectos'}" :buttonText="'Ver proyectos'"/>
             </div>
           </div>
-          <div class="col-md-4 col-12 columna2-header row">
-              <a href="https://www.instagram.com/futuropatagonia/" class="insta-icon"><img src="../assets/icons/instagram.png" alt=""></a>
-              <a href="https://www.facebook.com/Futuropatagonia" class="fb-icon"><img src="../assets/icons/facebook.png" alt="" ></a>
+          <div class="col-md-3 col-12 columna2-header row">
+              <a href="https://www.instagram.com/futuropatagonia/" target="_blank" class="insta-icon"><img src="../assets/icons/instagram.png" alt=""></a>
+              <a href="https://www.facebook.com/Futuropatagonia" target="_blank" class="fb-icon"><img src="../assets/icons/facebook.png" alt="" ></a>
           </div>
         </div>
       </header>
@@ -110,7 +110,7 @@
     <div class="container" id="proyectos">
       <h1 class="titulo">Los proyectos de <span class="titulo-verde">Futuro Patagonia </span><br/><span class="titulo-no-bold">que cambiarán tu vida</span></h1>
       <div class="row align-items-center proyect-cont">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 px-0">
           <img src="../assets/img/rio_blanco.png" alt="rio con volcan" class="img-fluid">
         </div>
         <div class="col-12 col-md-8 text-start desc-text">
@@ -125,7 +125,7 @@
           <p class="bajada">Santuario Río Cóndor es un proyecto ubicado en el corazón de la naturaleza, con la menor intervención humana que se puede encontrar. Entre Río Condor y Río Laguna Vera, ofrece vistas inigualables, rodeado de hermosos cordones montañosos, un verde brillante y una tranquilidad tan silenciosa que es imposible dejar de escuchar.</p>
           <VerProyecto :to="'https://santuarioriocondor.cl/'"/>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 px-0">
           <img src="../assets/img/rio_condor.png" alt="rio con volcan" class="img-fluid">
         </div>
         <div class="col-12 col-md-8 text-start desc-text d-md-none">
@@ -135,7 +135,7 @@
         </div>
       </div>
       <div class="row align-items-center proyect-cont">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 px-0">
           <img src="../assets/img/praderas.png" alt="rio con volcan" class="img-fluid">
         </div>
         <div class="col-12 col-md-8 text-start desc-text">

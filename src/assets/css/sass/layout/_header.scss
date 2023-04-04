@@ -1,6 +1,7 @@
 .background-image {
-  background-image: url("@/assets/img/header_bg.png");
+  background-image: url("@/assets/img/header_bg.jpg");
   @extend %background-image;
+  margin-bottom: -1px;
 }
 .header-container {
   display: flex;
@@ -60,4 +61,8 @@
 }
 .desc-text {
   padding: 40px;
+    @media (max-width: $tablet-width){
+      padding-left: 0px;
+      padding-right: 0px;
+  }
 }

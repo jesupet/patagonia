@@ -7,6 +7,7 @@
 import WhatsAppBtn from './components/WhatsAppBtn.vue'
 import { mapMutations, mapState } from 'vuex';
 
+
 export default {
     name: "App",
     components: {

@@ -109,11 +109,11 @@
   <div class="background-image3">
     <div class="container" id="proyectos">
       <h1 class="titulo">Los proyectos de <span class="titulo-verde">Futuro Patagonia </span><br/><span class="titulo-no-bold">que cambiarán tu vida</span></h1>
-      <div class="row align-items-center proyect-cont">
+      <div class="row align-items-center proyect-cont text-start">
         <div class="col-12 col-md-4 px-0">
           <img src="../assets/img/rio_blanco.png" alt="rio con volcan" class="img-fluid">
         </div>
-        <div class="col-12 col-md-8 text-start desc-text">
+        <div class="col-12 col-md-8 desc-text">
           <h3 class="titulo">Refugio Río Blanco</h3>
           <p class="bajada">El proyecto se encuentra emplazado en un lugar privilegiado por la naturaleza, rodeado de bosques siempre verdes y acompañado siempre por el sonido del Río Blanco. Lo maravilloso del sur de Chile, sin complicaciones y con esa belleza natural que buscas.</p>
           <VerProyecto :to="'https://refugiorioblanco.cl/'"/>
@@ -125,7 +125,7 @@
           <p class="bajada">Santuario Río Cóndor es un proyecto ubicado en el corazón de la naturaleza, con la menor intervención humana que se puede encontrar. Entre Río Condor y Río Laguna Vera, ofrece vistas inigualables, rodeado de hermosos cordones montañosos, un verde brillante y una tranquilidad tan silenciosa que es imposible dejar de escuchar.</p>
           <VerProyecto :to="'https://santuarioriocondor.cl/'"/>
         </div>
-        <div class="col-12 col-md-4 px-0">
+        <div class="col-12 col-md-4 px-0 text-start">
           <img src="../assets/img/rio_condor.png" alt="rio con volcan" class="img-fluid">
         </div>
         <div class="col-12 col-md-8 text-start desc-text d-md-none">
@@ -134,11 +134,11 @@
           <VerProyecto :to="'https://santuarioriocondor.cl/'"/>
         </div>
       </div>
-      <div class="row align-items-center proyect-cont">
+      <div class="row align-items-center proyect-cont text-start">
         <div class="col-12 col-md-4 px-0">
           <img src="../assets/img/praderas.png" alt="rio con volcan" class="img-fluid">
         </div>
-        <div class="col-12 col-md-8 text-start desc-text">
+        <div class="col-12 col-md-8 desc-text">
           <h3 class="titulo-verde">PRONTO</h3>
           <h3 class="titulo">Praderas de Mañihuales</h3>
           <p class="bajada">Si te has planteado vivir en este impresionante lugar, dentro de poco podrás hacerlo. Este proyecto está ubicado en un lugar increíble, rodeado de reservas naturales, paisajes maravillosos y  3km. del río Mañihuales lo acompañan.</p>

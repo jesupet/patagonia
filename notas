@@ -9,3 +9,6 @@ para hacer transparente el fondo del acordion
 
 para incorporar una variable del json en una propiedad poner los dos puntos al inicio y concatenar sólo con un +, aqui un ejemplo:
 :id="'flush-collapse'+index" 
+
+API KEY SENDGRID
+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

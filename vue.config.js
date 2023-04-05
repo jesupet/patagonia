@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 
-//module.exports = {
-  //publicPath: "https://futuropatagonia.cl"
-//}
+module.exports = {
+  publicPath: "https://futuropatagonia.cl"
+}

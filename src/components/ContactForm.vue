@@ -1,6 +1,6 @@
 <template>
 <div class="mb-3 d-inline-flex container justify-content-center">
-  <form action="https://formsubmit.co/mjpetour@gmail.com" method="post">
+  <form action="https://formsubmit.co/michelle@vanilla.cl" method="post">
       <input 
         type="email" 
         class="form-control little-txt d-md-inline" 

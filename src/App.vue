@@ -1,17 +1,17 @@
 <template>
-    <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/>
+    
     <router-view/>
 </template>
 
 <script>
-import WhatsAppBtn from './components/WhatsAppBtn.vue'
+
 import { mapMutations, mapState } from 'vuex';
 
 
 export default {
     name: "App",
     components: {
-        WhatsAppBtn,
+        
     },
     methods: {
     ...mapState(['showButton']),

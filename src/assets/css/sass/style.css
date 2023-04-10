@@ -12740,7 +12740,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.background-image4, .background-image3, .background-map, .background-image2, .background-image {
+.background-image7, .background-image4, .background-image3, .background-map, .background-image2, .background-image {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -13227,6 +13227,23 @@ footer {
 .chile-map {
   margin-right: -50px;
   height: 1736px;
+}
+
+.background-image7 {
+  background-image: url("@/assets/img/thanks_bg.jpg");
+  height: 91.6vh;
+}
+
+.big-cont {
+  display: flex;
+  align-items: center;
+  /* Alinea verticalmente al centro */
+  justify-content: center;
+  /* Alinea horizontalmente al centro */
+}
+
+.thanks-cont {
+  padding: 200px 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+.background-image7 {
+  background-image: url("@/assets/img/thanks_bg.jpg");
+  @extend %background-image;
+  height: 91.6vh
+}
+.big-cont {
+  display: flex;
+  align-items: center; /* Alinea verticalmente al centro */
+  justify-content: center; /* Alinea horizontalmente al centro */
+}
+.thanks-cont {
+  padding: 200px 50px;
+}

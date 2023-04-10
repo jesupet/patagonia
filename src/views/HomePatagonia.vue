@@ -1,4 +1,5 @@
 <template>
+  <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/>
   <div class="chile-map-cont">
     <img src="../assets/img/chile_map.png" alt="" class="chile-map">
   </div>
@@ -188,6 +189,7 @@
 
 <script>
 // @ is an alias to /src
+import WhatsAppBtn from '../components/WhatsAppBtn.vue'
 import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
 import WhiteButton from '../components/WhiteButton.vue'
@@ -200,6 +202,7 @@ import { mapState } from 'vuex'
 export default {
   name: 'HomePatagonia',
   components: {
+    WhatsAppBtn,
     NavBar,
     GreenButton,
     WhiteButton,

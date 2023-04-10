@@ -12759,7 +12759,7 @@ textarea.form-control-lg {
 }
 
 body {
-  height: 5000px;
+  height: 100%;
 }
 
 a, a:hover {
@@ -13231,7 +13231,7 @@ footer {
 
 .background-image7 {
   background-image: url("@/assets/img/thanks_bg.jpg");
-  height: 91.6vh;
+  height: 100vh;
 }
 
 .big-cont {
@@ -13243,7 +13243,38 @@ footer {
 }
 
 .thanks-cont {
-  padding: 200px 50px;
+  padding: 200px 50px 225px;
+}
+@media (min-width: 1024px) {
+  .thanks-cont {
+    width: 40%;
+  }
+}
+
+.big-txt {
+  font-size: 90px;
+}
+@media (max-width: 480px) {
+  .big-txt {
+    font-size: 60px;
+  }
+}
+
+.espaciado {
+  margin-top: 30px;
+}
+
+.mi-pagina-vue {
+  max-height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.foot-tks {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

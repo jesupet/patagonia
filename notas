@@ -12,3 +12,19 @@ para incorporar una variable del json en una propiedad poner los dos puntos al i
 
 API KEY SENDGRID
 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
+
+alojar pdf 
+npm install pdf-loader --save-dev
+Instala el paquete pdf-loader usando NPM o Yarn:
+npm install pdf-loader --save-dev
+En tu archivo vue.config.js, agrega una regla para manejar los archivos PDF usando el cargador pdf-loader. Si no tienes un archivo vue.config.js, puedes crear uno en la raíz de tu proyecto:
+module.exports = {
+  chainWebpack: config => {
+    config.module
+      .rule('pdf')
+      .test(/\.pdf$/)
+      .use('pdf-loader')
+      .loader('pdf-loader')
+      .end();
+  }
+};

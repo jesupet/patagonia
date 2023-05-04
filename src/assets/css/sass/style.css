@@ -12988,9 +12988,13 @@ footer {
   margin: auto;
   padding-bottom: 50px;
 }
+.card-cont img {
+  width: 100%;
+}
 
 .background-map {
   background-image: url("@/assets/img/map_bg.jpg");
+  background-position: left top;
 }
 
 .cta-cont {
@@ -13144,6 +13148,18 @@ footer {
   margin: 0px;
   padding: 0px;
   border: none;
+}
+
+.copyright {
+  padding: 10px;
+}
+.copyright p {
+  color: #556170;
+  padding: 0px;
+  margin: 0px;
+}
+.copyright p a {
+  text-decoration: underline;
 }
 
 .boton {

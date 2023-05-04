@@ -31,10 +31,14 @@
   width: 350px;
   margin: auto;
   padding-bottom: 50px;
+  img {
+    width: 100%;
+  }
 }
 .background-map {
   background-image: url("@/assets/img/map_bg.jpg");
   @extend %background-image;
+  background-position: left top;
 }
 .cta-cont {
   padding: 100px 200px;

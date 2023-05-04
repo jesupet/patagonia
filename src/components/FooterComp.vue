@@ -28,6 +28,9 @@
         <p>Síguenos en <a target="_blank" href="https://www.instagram.com/futuropatagonia/">instagram</a> para estar al tanto de todas nuestras novedades y nuevos lanzamientos.</p>
       </div>
     </div>
+    <div class="copyright text-center">
+      <p class="little-txt">Desarrollado por <a href="https://www.vanilla.cl" target="_blank">Vanilla Diseño</a></p>
+    </div>
   </footer>
 </template>
 

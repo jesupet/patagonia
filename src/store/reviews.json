@@ -1,17 +1,17 @@
 [
   {
-    "descripcion": "Hace mucho tiempo buscábamos invertir en un terreno en el sur de Chile. Estamos felices y ansiosos de disfrutar de nuestro maravilloso lugar.",
+    "descripcion": "Buscaba un lugar donde conectarme con mi esencia a través de una real conexión con la naturaleza, un lugar donde refugiarme, un lugar donde huir de la fragilidad de la vida en la ciudad, un lugar donde tener experiencias memorables.",
+    "autor": "Alfredo de la Quintana",
+    "proyecto": "Santuario Río Cóndor"
+  },
+  {
+    "descripcion": "Hace mucho tiempo buscábamos invertir en un terreno en el sur de Chile. Fue genial encontrar esta oportunidad en un lugar lleno de paisajes soñados. Estamos felices y ansiosos de disfrutar de nuestro maravilloso lugar.",
     "autor": "Pablo y Michelle",
     "proyecto": "Refugio Río Blanco"
   },
   {
-    "descripcion": "Hace mucho tiempo buscábamos invertir en un terreno en el sur de Chile. Estamos felices y ansiosos de disfrutar de nuestro maravilloso lugar.",
-    "autor": "María Ignacia y Paula",
+    "descripcion": "Desbordados de alegría y entusiasmo con el proyecto Santuario Rio Condor, es un proyecto de vida para nosotros, Santuario cumple con nuestra expectativa de mejorar nuestra calidad de vida, teniendo una vida sustentable y ecológica.",
+    "autor": "Andrea y Gregorio",
     "proyecto": "Santuario Río Cóndor"
-  },
-  {
-    "descripcion": "Hace mucho tiempo buscábamos invertir en un terreno en el sur de Chile. Estamos felices y ansiosos de disfrutar de nuestro maravilloso lugar.",
-    "autor": "Ricardo, Maya y Cachupín",
-    "proyecto": "Praderas de Mañihuales"
   }
 ]

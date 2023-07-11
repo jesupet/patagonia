@@ -142,7 +142,7 @@
         <div class="col-12 col-md-8 desc-text">
           <h3 class="titulo-verde">PRONTO</h3>
           <h3 class="titulo">Praderas de Mañihuales</h3>
-          <p class="bajada">Si te has planteado vivir en este impresionante lugar, dentro de poco podrás hacerlo. Este proyecto está ubicado en un lugar increíble, rodeado de reservas naturales, paisajes maravillosos y  3km. del río Mañihuales lo acompañan.</p>
+          <p class="bajada">Si te has planteado vivir en este impresionante lugar, dentro de poco podrás hacerlo. Este proyecto está ubicado en un lugar increíble, rodeado de reservas naturales, paisajes maravillosos y  1.480 metros del río Mañihuales lo acompañan.</p>
           <VerProyecto/>
         </div>
       </div>
